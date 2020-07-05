@@ -8,6 +8,8 @@ import router from './router';
 import store from '@/store/index';
 import './registerServiceWorker';
 import dateFilter from '@/filters/date.filter';
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.material.blue.light.css';
 
 Vue.config.productionTip = false;
 

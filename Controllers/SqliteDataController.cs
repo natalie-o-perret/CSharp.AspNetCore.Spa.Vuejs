@@ -16,19 +16,15 @@ namespace CSharp.AspNetCore.Spa.Vuejs.Controllers
     {
         private readonly SqliteDbContext _dbContext;
 
-        public SqliteDataController(SqliteDbContext dbContext)
-        {
+        public SqliteDataController(SqliteDbContext dbContext) =>
             _dbContext = dbContext;
-        }
 
         /// <summary>
         /// Return filtered SQLite records
         /// </summary>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public Task<LoadResult> GetAsync(DataSourceLoadOptions loadOptions)
-        {
-            return DataSourceLoader.LoadAsync(_dbContext.Records, loadOptions);
-        }
+        public Task<LoadResult> GetAsync(DataSourceLoadOptions loadOptions) =>
+            DataSourceLoader.LoadAsync(_dbContext.Records, loadOptions);
     }
 }

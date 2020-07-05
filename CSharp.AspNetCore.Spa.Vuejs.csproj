@@ -7,9 +7,7 @@
     <IsPackable>false</IsPackable>
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
-    <Company>Software Ateliers</Company>
     <Description>ASP.NET Core + Vue.js starter project</Description>
-    <Copyright>MIT 2020 Software Ateliers</Copyright>
     <AssemblyName>CSharp.AspNetCore.Spa.Vuejs</AssemblyName>
     <RootNamespace>CSharp.AspNetCore.Spa.Vuejs</RootNamespace>
     <Version>2.4.0</Version>

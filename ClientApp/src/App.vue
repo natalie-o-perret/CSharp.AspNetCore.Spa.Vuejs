@@ -31,7 +31,7 @@
     </v-content>
 
     <v-footer app>
-      <span>&nbsp;Software Ateliers&nbsp;&copy;&nbsp;2020</span>
+      <span>ASP.NET Core Vue Starter</span>
     </v-footer>
 
   </v-app>
@@ -54,6 +54,7 @@ export default class App extends Vue {
     { title: 'Home', icon: 'home', link: '/' },
     { title: 'Counter', icon: 'touch_app', link: '/counter' },
     { title: 'Fetch data', icon: 'get_app', link: '/fetch-data' },
+    { title: 'SQLite data', icon: 'grid_on', link: '/sqlite-data' },
   ];
 }
 </script>

@@ -26,5 +26,10 @@ export default new Router({
       name: 'fetch-data',
       component: () => import(/* webpackChunkName: "fetch-data" */ './views/FetchData.vue'),
     },
+    {
+      path: '/sqlite-data',
+      name: 'sqlite-data',
+      component: () => import(/* webpackChunkName: "fetch-data" */ './views/SqliteData.vue'),
+    },
   ],
 });

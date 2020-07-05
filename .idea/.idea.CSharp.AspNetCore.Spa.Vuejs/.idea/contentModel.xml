@@ -37,10 +37,14 @@
         <e p="node_modules\commander" t="IncludeRecursive" />
         <e p="node_modules\core-js" t="IncludeRecursive" />
         <e p="node_modules\date-fns" t="IncludeRecursive" />
+        <e p="node_modules\DevExtreme" t="IncludeRecursive" />
+        <e p="node_modules\devextreme-vue" t="IncludeRecursive" />
         <e p="node_modules\dotenv" t="IncludeRecursive" />
         <e p="node_modules\dotenv-expand" t="IncludeRecursive" />
         <e p="node_modules\fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
         <e p="node_modules\javascript-stringify" t="IncludeRecursive" />
+        <e p="node_modules\jszip" t="IncludeRecursive" />
+        <e p="node_modules\lie" t="IncludeRecursive" />
         <e p="node_modules\microevent.ts" t="IncludeRecursive" />
         <e p="node_modules\portfinder" t="IncludeRecursive" />
         <e p="node_modules\postcss" t="IncludeRecursive" />
@@ -188,9 +192,11 @@
           </e>
           <e p="views" t="Include">
             <e p="Counter.vue" t="Include" />
+            <e p="data.js" t="Include" />
             <e p="FetchData-decorator.vue" t="Include" />
             <e p="FetchData.vue" t="Include" />
             <e p="Home.vue" t="Include" />
+            <e p="SqliteData.vue" t="Include" />
           </e>
         </e>
         <e p="tsconfig.json" t="Include" />

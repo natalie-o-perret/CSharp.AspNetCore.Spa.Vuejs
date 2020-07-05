@@ -3,7 +3,7 @@
     <v-slide-y-transition mode="out-in">
       <v-row>
         <v-col>
-          <h1>Weather forecast</h1>
+          <h1 class="headline">Weather forecast</h1>
           <p>This component demonstrates fetching data from the server.</p>
 
           <v-data-table
@@ -24,11 +24,9 @@
         </v-col>
       </v-row>
     </v-slide-y-transition>
-
     <v-alert :value="showError" type="error" v-text="errorMessage">
       This is an error alert.
     </v-alert>
-
     <v-alert :value="showError" type="warning">
       Are you sure you're using ASP.NET Core endpoint? (default at
       <a href="http://localhost:5000/fetch-data">http://localhost:5000</a
