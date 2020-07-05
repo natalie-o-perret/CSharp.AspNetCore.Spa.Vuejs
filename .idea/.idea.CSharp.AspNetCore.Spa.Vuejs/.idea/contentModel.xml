@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Michelle\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Michelle\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_CSharp.AspNetCore.Spa.Vuejs.323978189.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Michelle\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Michelle\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Michelle\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Michelle\Desktop\Work\CSharp.AspNetCore.Spa.Vuejs" t="IncludeRecursive">
+      <e p=".gitattributes" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".browserslistrc" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="babel.config.js" t="Include" />
+        <e p="node_modules\@mdi\font" t="IncludeRecursive" />
+        <e p="node_modules\@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules\@vue\cli-plugin-babel" t="IncludeRecursive" />
+        <e p="node_modules\@vue\cli-plugin-pwa" t="IncludeRecursive" />
+        <e p="node_modules\@vue\cli-plugin-typescript" t="IncludeRecursive" />
+        <e p="node_modules\@vue\cli-service" t="IncludeRecursive" />
+        <e p="node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
+        <e p="node_modules\acorn-walk" t="IncludeRecursive" />
+        <e p="node_modules\address" t="IncludeRecursive" />
+        <e p="node_modules\axios" t="IncludeRecursive" />
+        <e p="node_modules\babel-plugin-transform-imports" t="IncludeRecursive" />
+        <e p="node_modules\chalk" t="IncludeRecursive" />
+        <e p="node_modules\chokidar" t="IncludeRecursive" />
+        <e p="node_modules\cli-highlight" t="IncludeRecursive" />
+        <e p="node_modules\commander" t="IncludeRecursive" />
+        <e p="node_modules\core-js" t="IncludeRecursive" />
+        <e p="node_modules\date-fns" t="IncludeRecursive" />
+        <e p="node_modules\dotenv" t="IncludeRecursive" />
+        <e p="node_modules\dotenv-expand" t="IncludeRecursive" />
+        <e p="node_modules\fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
+        <e p="node_modules\javascript-stringify" t="IncludeRecursive" />
+        <e p="node_modules\microevent.ts" t="IncludeRecursive" />
+        <e p="node_modules\portfinder" t="IncludeRecursive" />
+        <e p="node_modules\postcss" t="IncludeRecursive" />
+        <e p="node_modules\postcss-selector-parser" t="IncludeRecursive" />
+        <e p="node_modules\register-service-worker" t="IncludeRecursive" />
+        <e p="node_modules\sass" t="IncludeRecursive" />
+        <e p="node_modules\sass-loader" t="IncludeRecursive" />
+        <e p="node_modules\source-map" t="IncludeRecursive" />
+        <e p="node_modules\terser" t="IncludeRecursive" />
+        <e p="node_modules\ts-loader" t="IncludeRecursive" />
+        <e p="node_modules\tslib" t="IncludeRecursive" />
+        <e p="node_modules\tslint" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.asyncgenerator.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.intl.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2018.regexp.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.array.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.object.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.bigint.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.string.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.promise.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.string.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+        <e p="node_modules\upath" t="IncludeRecursive" />
+        <e p="node_modules\vue" t="IncludeRecursive" />
+        <e p="node_modules\vue-class-component" t="IncludeRecursive" />
+        <e p="node_modules\vue-cli-plugin-axios" t="IncludeRecursive" />
+        <e p="node_modules\vue-cli-plugin-vuetify" t="IncludeRecursive" />
+        <e p="node_modules\vue-loader" t="IncludeRecursive" />
+        <e p="node_modules\vue-property-decorator" t="IncludeRecursive" />
+        <e p="node_modules\vue-router" t="IncludeRecursive" />
+        <e p="node_modules\vue-template-compiler" t="IncludeRecursive" />
+        <e p="node_modules\vuetify" t="IncludeRecursive" />
+        <e p="node_modules\vuetify-loader" t="IncludeRecursive" />
+        <e p="node_modules\vuex" t="IncludeRecursive" />
+        <e p="node_modules\vuex-class" t="IncludeRecursive" />
+        <e p="node_modules\webpack-chain" t="IncludeRecursive" />
+        <e p="node_modules\worker-rpc" t="IncludeRecursive" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="postcss.config.js" t="Include" />
+        <e p="public" t="Include">
+          <e p="favicon.ico" t="Include" />
+          <e p="img" t="Include">
+            <e p="icons" t="Include">
+              <e p="android-chrome-192x192.png" t="Include" />
+              <e p="android-chrome-512x512.png" t="Include" />
+              <e p="apple-touch-icon-120x120.png" t="Include" />
+              <e p="apple-touch-icon-152x152.png" t="Include" />
+              <e p="apple-touch-icon-180x180.png" t="Include" />
+              <e p="apple-touch-icon-60x60.png" t="Include" />
+              <e p="apple-touch-icon-76x76.png" t="Include" />
+              <e p="apple-touch-icon.png" t="Include" />
+              <e p="favicon-16x16.png" t="Include" />
+              <e p="favicon-32x32.png" t="Include" />
+              <e p="msapplication-icon-144x144.png" t="Include" />
+              <e p="mstile-150x150.png" t="Include" />
+              <e p="safari-pinned-tab.svg" t="Include" />
+            </e>
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="manifest.json" t="Include" />
+          <e p="robots.txt" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="App.vue" t="Include" />
+          <e p="assets" t="Include">
+            <e p="logo.png" t="Include" />
+          </e>
+          <e p="components" t="Include">
+            <e p="Counter.vue" t="Include" />
+            <e p="HelloWorld.vue" t="Include" />
+          </e>
+          <e p="filters" t="Include">
+            <e p="date.filter.ts" t="Include" />
+          </e>
+          <e p="main.ts" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Forecast.ts" t="Include" />
+          </e>
+          <e p="plugins" t="Include">
+            <e p="axios.js" t="Include" />
+            <e p="vuetify.ts" t="Include" />
+          </e>
+          <e p="registerServiceWorker.ts" t="Include" />
+          <e p="router.ts" t="Include" />
+          <e p="shims-tsx.d.ts" t="Include" />
+          <e p="shims-vue.d.ts" t="Include" />
+          <e p="store" t="Include">
+            <e p="counter" t="Include">
+              <e p="actions.ts" t="Include" />
+              <e p="getters.ts" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="mutations.ts" t="Include" />
+              <e p="types.ts" t="Include" />
+            </e>
+            <e p="index.ts" t="Include" />
+            <e p="types.ts" t="Include" />
+          </e>
+          <e p="views" t="Include">
+            <e p="Counter.vue" t="Include" />
+            <e p="FetchData-decorator.vue" t="Include" />
+            <e p="FetchData.vue" t="Include" />
+            <e p="Home.vue" t="Include" />
+          </e>
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="SqliteDataController.cs" t="Include" />
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="CSharp.AspNetCore.Spa.Vuejs.csproj" t="IncludeRecursive" />
+      <e p="CSharp.AspNetCore.Spa.Vuejs.sln" t="IncludeFlat" />
+      <e p="DevExtreme" t="Include">
+        <e p="DataSourceLoadOptions.cs" t="Include" />
+        <e p="DataSourceLoadOptionsBaseFieldNames.cs" t="Include" />
+        <e p="DataSourceLoadOptionsBinder.cs" t="Include" />
+        <e p="DataSourceLoadOptionsParser.cs" t="Include" />
+        <e p="FieldError.cs" t="Include" />
+      </e>
+      <e p="Dockerfile" t="Include" />
+      <e p="Models" t="Include">
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="CSharp.AspNetCore.Spa.Vuejs.AssemblyInfo.cs" t="Include" />
+            <e p="CSharp.AspNetCore.Spa.Vuejs.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+        <e p="Error.cshtml.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+        <e p="PublishProfiles" t="Include">
+          <e p="FolderProfile.pubxml" t="Include" />
+        </e>
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="screenshot.png" t="Include" />
+      <e p="SqliteData" t="Include">
+        <e p="SqliteDbContext.cs" t="Include" />
+        <e p="SqliteRecord.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="StartupExtensions" t="Include">
+        <e p="SqliteEfExtensions.cs" t="Include" />
+        <e p="SwaggerExtensions.cs" t="Include" />
+        <e p="VersioningExtensions.cs" t="Include" />
+      </e>
+      <e p="tslint.json" t="Include" />
+    </e>
+  </component>
+</project>
