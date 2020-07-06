@@ -1,6 +1,10 @@
-﻿using CSharp.AspNetCore.Spa.Vuejs.SqliteData;
+﻿using System;
+using CSharp.AspNetCore.Spa.Vuejs.SqliteData;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CSharp.AspNetCore.Spa.Vuejs.StartupExtensions
@@ -14,11 +18,21 @@ namespace CSharp.AspNetCore.Spa.Vuejs.StartupExtensions
             SQLitePCL.Batteries.Init();
             var keepAliveConnection = new SqliteConnection(connectionString);
             keepAliveConnection.Open();
-
+            keepAliveConnection.Disposed += (sender, args) => Console.WriteLine("Diposed!!!");
             services.AddDbContext<SqliteDbContext>(options =>
             {
-                options.UseSqlite(connectionString);
+                options.UseSqlite(keepAliveConnection);
             });
+        }
+
+        public static void UseSharedInMemorySqliteEf(this IApplicationBuilder app)
+        {
+            using var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope();
+            var dbContext = serviceScope.ServiceProvider.GetRequiredService<SqliteDbContext>();
+            var databaseCreator = (RelationalDatabaseCreator) dbContext.Database.GetService<IDatabaseCreator>();
+            databaseCreator.CreateTables();
+            databaseCreator.EnsureCreated();
+            dbContext.SaveChanges();
         }
     }
 }

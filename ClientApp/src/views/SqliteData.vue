@@ -7,7 +7,7 @@
           <p>This component demonstrates the DX Data Grid fetching data from the server.</p>
           <dx-data-grid
             :data-source="dataSource"
-            :remote-operations="false"
+            :remote-operations="true"
             :allow-column-resizing="true"
             :allow-column-reordering="true"
             :column-auto-width="true"
@@ -37,15 +37,11 @@
                     :allowed-page-sizes="[5, 10, 15]"
                     :show-navigation-buttons="true" />
 
-            <dx-column data-field="ID" caption="Id" data-type="number" />
-            <dx-column data-field="CompanyName" caption="Company" data-type="string" />
-            <dx-column data-field="Address" data-type="string" />
-            <dx-column data-field="City" data-type="string" />
-            <dx-column data-field="State" data-type="string" />
-            <dx-column data-field="Zipcode" caption="ZIP Code" data-type="number" />
-            <dx-column data-field="Phone" data-type="string" />
-            <dx-column data-field="Fax" data-type="string" />
-            <dx-column data-field="Website" data-type="string" />
+            <dx-column data-field="id"              caption="Id"  />
+            <dx-column data-field="integer"         caption="Integer" />
+            <dx-column data-field="real"            caption="Real" />
+            <dx-column data-field="nullableText"    caption="Nullable Text" />
+            <dx-column data-field="nonNullableText" caption="Non-nullable Text"/>
           </dx-data-grid>
         </v-col>
       </v-row>
@@ -65,26 +61,26 @@
   </v-container>
 </template>
 
-<script>
-    import DxColumn from 'devextreme-vue/data-grid';
-    import DxFilterPanel from 'devextreme-vue/data-grid';
-    import DxLookup from 'devextreme-vue/data-grid';
-    import DxColumnChooser from 'devextreme-vue/data-grid';
-    import DxColumnFixing from 'devextreme-vue/data-grid';
-    import DxDataGrid from 'devextreme-vue/data-grid';
-    import DxExport from 'devextreme-vue/data-grid';
-    import DxFilterBuilderPopup from 'devextreme-vue/data-grid';
-    import DxFilterRow from 'devextreme-vue/data-grid';
-    import DxGrouping from 'devextreme-vue/data-grid';
-    import DxGroupPanel from 'devextreme-vue/data-grid';
-    import DxHeaderFilter from 'devextreme-vue/data-grid';
-    import DxLoadPanel from 'devextreme-vue/data-grid';
-    import DxPager from 'devextreme-vue/data-grid';
-    import DxPaging from 'devextreme-vue/data-grid';
-    import DxScrolling from 'devextreme-vue/data-grid';
-    import DxSearchPanel from 'devextreme-vue/data-grid';
-    import DxSelection from 'devextreme-vue/data-grid';
-    import { customers } from './data';
+<script lang="ts">
+    import { DxColumn } from 'devextreme-vue/data-grid';
+    import { DxFilterPanel } from 'devextreme-vue/data-grid';
+    import { DxLookup } from 'devextreme-vue/data-grid';
+    import { DxColumnChooser } from 'devextreme-vue/data-grid';
+    import { DxColumnFixing } from 'devextreme-vue/data-grid';
+    import { DxDataGrid } from 'devextreme-vue/data-grid';
+    import { DxExport } from 'devextreme-vue/data-grid';
+    import { DxFilterBuilderPopup } from 'devextreme-vue/data-grid';
+    import { DxFilterRow } from 'devextreme-vue/data-grid';
+    import { DxGrouping } from 'devextreme-vue/data-grid';
+    import { DxGroupPanel } from 'devextreme-vue/data-grid';
+    import { DxHeaderFilter } from 'devextreme-vue/data-grid';
+    import { DxLoadPanel } from 'devextreme-vue/data-grid';
+    import { DxPager } from 'devextreme-vue/data-grid';
+    import { DxPaging } from 'devextreme-vue/data-grid';
+    import { DxScrolling } from 'devextreme-vue/data-grid';
+    import { DxSearchPanel } from 'devextreme-vue/data-grid';
+    import { DxSelection } from 'devextreme-vue/data-grid';
+    import { createStore } from 'devextreme-aspnet-data-nojquery';
     export default {
         name: 'SqliteData',
         components: {
@@ -111,7 +107,10 @@
             return {
                 showError: false,
                 errorMessage: 'Error while SQLite data.',
-                dataSource: customers,
+                dataSource: createStore({
+                    key: 'id',
+                    loadUrl: `${window.location.origin}/api/v1/sqlite-data`,
+                }),
             };
         },
     };

@@ -16,20 +16,24 @@ export default new Router({
     {
       path: '/counter',
       name: 'counter',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "counter" */ './views/Counter.vue'),
+      component: () => import('./views/Counter.vue'),
     },
     {
       path: '/fetch-data',
       name: 'fetch-data',
-      component: () => import(/* webpackChunkName: "fetch-data" */ './views/FetchData.vue'),
+      component: () => import('./views/FetchData.vue'),
     },
     {
       path: '/sqlite-data',
       name: 'sqlite-data',
-      component: () => import(/* webpackChunkName: "fetch-data" */ './views/SqliteData.vue'),
+      component: () => import('./views/SqliteData.vue'),
+    },
+    {
+      path: '/swagger',
+      name: 'swagger',
+      beforeEnter() {
+        window.open(`${window.location.origin}/swagger/index.html`, '_blank');
+      },
     },
   ],
 });

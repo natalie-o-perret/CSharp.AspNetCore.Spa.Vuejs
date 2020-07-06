@@ -8,7 +8,7 @@ namespace CSharp.AspNetCore.Spa.Vuejs.Controllers
 {
     [ApiController]
     [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [Route("api/v{version:apiVersion}/weather-forecast")]
     [Produces("application/json")]
     public class WeatherForecastController : ControllerBase
     {

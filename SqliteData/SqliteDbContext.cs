@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-
+using System.Threading.Tasks;
 using Bogus;
 using Bogus.Extensions;
 
@@ -18,12 +18,22 @@ namespace CSharp.AspNetCore.Spa.Vuejs.SqliteData
         {
         }
 
+        public override void Dispose()
+        {
+            base.Dispose();
+        }
+
+        public override ValueTask DisposeAsync()
+        {
+            return base.DisposeAsync();
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var faker = new Faker();
-            var recordCount = faker.Random.Int(5_000, 10_000);
+            var recordCount = faker.Random.Int(500, 1000);
             var records = Enumerable
-                .Range(0, recordCount)
+                .Range(1, recordCount)
                 .Select(index =>
                     new SqliteRecord
                     {
@@ -33,14 +43,14 @@ namespace CSharp.AspNetCore.Spa.Vuejs.SqliteData
                         NullableText = faker.Name.FullName().OrNull(faker, .2f),
                         NonNullableText = faker.Commerce.Product()
                     });
-
-            modelBuilder
-                .Entity<SqliteRecord>()
-                .HasKey(x => x.Id);
             modelBuilder
                 .Entity<SqliteRecord>()
                 .ToTable("Records")
                 .HasData(records);
+
+            modelBuilder
+                .Entity<SqliteRecord>()
+                .HasKey(x => x.Id);
         }
     }
 }

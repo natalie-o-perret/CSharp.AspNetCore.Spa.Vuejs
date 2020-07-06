@@ -38,6 +38,7 @@
         <e p="node_modules\core-js" t="IncludeRecursive" />
         <e p="node_modules\date-fns" t="IncludeRecursive" />
         <e p="node_modules\DevExtreme" t="IncludeRecursive" />
+        <e p="node_modules\devextreme-aspnet-data-nojquery" t="IncludeRecursive" />
         <e p="node_modules\devextreme-vue" t="IncludeRecursive" />
         <e p="node_modules\dotenv" t="IncludeRecursive" />
         <e p="node_modules\dotenv-expand" t="IncludeRecursive" />

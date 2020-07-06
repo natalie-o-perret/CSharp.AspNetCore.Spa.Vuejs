@@ -30,6 +30,7 @@
     "@vue/cli-service": "^4.4.1",
     "axios": "^0.19.2",
     "babel-plugin-transform-imports": "^2.0.0",
+    "devextreme-aspnet-data-nojquery": "^2.6.2",
     "sass": "^1.26.7",
     "sass-loader": "^8.0.2",
     "typescript": "^3.9.3",

@@ -54,6 +54,7 @@ export default class App extends Vue {
     { title: 'Counter', icon: 'touch_app', link: '/counter' },
     { title: 'Fetch data', icon: 'get_app', link: '/fetch-data' },
     { title: 'SQLite data', icon: 'grid_on', link: '/sqlite-data' },
+    { title: 'Swagger', icon: 'api', link: '/swagger' },
   ];
 }
 </script>

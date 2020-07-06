@@ -43,6 +43,8 @@ namespace CSharp.AspNetCore.Spa.Vuejs
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSharedInMemorySqliteEf();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
