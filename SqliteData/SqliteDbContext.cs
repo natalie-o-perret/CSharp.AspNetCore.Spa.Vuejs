@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Threading.Tasks;
 using Bogus;
 using Bogus.Extensions;
 
@@ -16,16 +15,6 @@ namespace CSharp.AspNetCore.Spa.Vuejs.SqliteData
         }
         public SqliteDbContext(DbContextOptions<SqliteDbContext> options) : base(options)
         {
-        }
-
-        public override void Dispose()
-        {
-            base.Dispose();
-        }
-
-        public override ValueTask DisposeAsync()
-        {
-            return base.DisposeAsync();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

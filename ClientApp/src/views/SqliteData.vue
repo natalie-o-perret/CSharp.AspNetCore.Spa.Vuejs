@@ -106,7 +106,7 @@
         data() {
             return {
                 showError: false,
-                errorMessage: 'Error while SQLite data.',
+                errorMessage: 'Error while retrieving SQLite data.',
                 dataSource: createStore({
                     key: 'id',
                     loadUrl: `${window.location.origin}/api/v1/sqlite-data`,
