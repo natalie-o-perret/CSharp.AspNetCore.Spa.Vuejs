@@ -13,7 +13,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
     <v-app-bar app :clipped-left="clipped" color="info" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-btn class="d-none d-lg-flex" icon @click.stop="miniVariant = !miniVariant">

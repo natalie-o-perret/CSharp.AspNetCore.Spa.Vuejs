@@ -5,7 +5,48 @@
         <v-col>
           <h1 class="headline">SQLite Data</h1>
           <p>This component demonstrates the DX Data Grid fetching data from the server.</p>
-          <DxDataGrid :data-source="dataSource" :columns="columns" :show-borders="true" />
+          <dx-data-grid
+            :data-source="dataSource"
+            :remote-operations="false"
+            :allow-column-resizing="true"
+            :allow-column-reordering="true"
+            :column-auto-width="true"
+            :column-hiding-enabled="false"
+            column-resizing-mode="widget"
+            :show-column-lines="true"
+            :show-row-lines="true"
+            :show-borders="true"
+            :hover-state-enabled="true"
+            :row-alternation-enabled="true">
+
+            <dx-grouping :context-menu-enabled="true" expand-mode="rowClick" />
+            <dx-group-panel :visible="true" :allow-column-dragging="true" />
+            <dx-load-panel :enabled="true" :shading="true"/>
+            <dx-search-panel :visible="true" />
+            <dx-column-fixing :enabled="true"/>
+            <dx-column-chooser :enabled="true" mode="select" :allow-search="true" />
+            <dx-export :enabled="true" :allow-export-selected-data="true" file-name="Wire Transfers" />
+            <dx-paging :enabled="true" :page-size="5" />
+            <dx-filter-row :visible="true" />
+            <dx-header-filter :visible="true" :allow-search="true" />
+            <dx-scrolling :use-native="true" />
+
+            <dx-pager
+                    :show-page-size-selector="true"
+                    :show-info="true"
+                    :allowed-page-sizes="[5, 10, 15]"
+                    :show-navigation-buttons="true" />
+
+            <dx-column data-field="ID" caption="Id" data-type="number" />
+            <dx-column data-field="CompanyName" caption="Company" data-type="string" />
+            <dx-column data-field="Address" data-type="string" />
+            <dx-column data-field="City" data-type="string" />
+            <dx-column data-field="State" data-type="string" />
+            <dx-column data-field="Zipcode" caption="ZIP Code" data-type="number" />
+            <dx-column data-field="Phone" data-type="string" />
+            <dx-column data-field="Fax" data-type="string" />
+            <dx-column data-field="Website" data-type="string" />
+          </dx-data-grid>
         </v-col>
       </v-row>
     </v-slide-y-transition>
@@ -14,8 +55,7 @@
     </v-alert>
     <v-alert :value="showError" type="warning">
       Are you sure you're using ASP.NET Core endpoint? (default at
-      <a href="http://localhost:5000/sqlite-data">http://localhost:5000</a
-      >)
+      <a href="http://localhost:5000/sqlite-data">http://localhost:5000</a>)
       <br />
       API call would fail with status code 404 when calling from Vue app
       (default at
@@ -26,19 +66,52 @@
 </template>
 
 <script>
+    import DxColumn from 'devextreme-vue/data-grid';
+    import DxFilterPanel from 'devextreme-vue/data-grid';
+    import DxLookup from 'devextreme-vue/data-grid';
+    import DxColumnChooser from 'devextreme-vue/data-grid';
+    import DxColumnFixing from 'devextreme-vue/data-grid';
     import DxDataGrid from 'devextreme-vue/data-grid';
-    import { customers } from './data.js';
+    import DxExport from 'devextreme-vue/data-grid';
+    import DxFilterBuilderPopup from 'devextreme-vue/data-grid';
+    import DxFilterRow from 'devextreme-vue/data-grid';
+    import DxGrouping from 'devextreme-vue/data-grid';
+    import DxGroupPanel from 'devextreme-vue/data-grid';
+    import DxHeaderFilter from 'devextreme-vue/data-grid';
+    import DxLoadPanel from 'devextreme-vue/data-grid';
+    import DxPager from 'devextreme-vue/data-grid';
+    import DxPaging from 'devextreme-vue/data-grid';
+    import DxScrolling from 'devextreme-vue/data-grid';
+    import DxSearchPanel from 'devextreme-vue/data-grid';
+    import DxSelection from 'devextreme-vue/data-grid';
+    import { customers } from './data';
     export default {
         name: 'SqliteData',
         components: {
             DxDataGrid,
+            DxColumn,
+            DxColumnChooser,
+            DxColumnFixing,
+            DxExport,
+            DxFilterBuilderPopup,
+            DxFilterPanel,
+            DxFilterRow,
+            DxGrouping,
+            DxGroupPanel,
+            DxHeaderFilter,
+            DxLoadPanel,
+            DxLookup,
+            DxPager,
+            DxPaging,
+            DxScrolling,
+            DxSearchPanel,
+            DxSelection,
         },
         data() {
             return {
                 showError: false,
                 errorMessage: 'Error while SQLite data.',
                 dataSource: customers,
-                columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax'],
             };
         },
     };

@@ -42,20 +42,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0f97b1f-bd3e-4d27-ac9b-ab6d09a1e4b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/views/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/styles/dx-data-grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharp.AspNetCore.Spa.Vuejs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp.AspNetCore.Spa.Vuejs.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/SqliteDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SqliteDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/views/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/views/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B1EBDF69-C10B-4E80-9C57-DBA07AE09F3E/70/IModelBinder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/src/views/data.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/src/views/data.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsBinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StartupExtensions/VersioningExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,16 +122,20 @@
         <option value="$PROJECT_DIR$/Controllers/SqliteDataController.cs" />
         <option value="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" />
         <option value="$PROJECT_DIR$/CSharp.AspNetCore.Spa.Vuejs.csproj" />
-        <option value="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" />
-        <option value="$PROJECT_DIR$/ClientApp/package.json" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/Sqlite.vue" />
         <option value="$PROJECT_DIR$/ClientApp/src/router.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/data.js.json" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/data.js" />
         <option value="$PROJECT_DIR$/ClientApp/public/index.html" />
-        <option value="$PROJECT_DIR$/ClientApp/src/App.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/src/views/Counter.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/src/styles/dx-data-grid.scss" />
         <option value="$PROJECT_DIR$/ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ClientApp/src/views/data.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/src/App.vue" />
       </list>
     </option>
   </component>
@@ -189,14 +187,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593923496214</updated>
-      <workItem from="1593923510423" duration="24294000" />
+      <workItem from="1593923510423" duration="28318000" />
+      <workItem from="1593997462399" duration="2322000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -208,6 +207,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -225,74 +225,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="397" height="544" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593986577718" />
-    <state width="1481" height="207" key="GridCell.Tab.0.bottom" timestamp="1593992427296">
+    <state x="379" y="138" key="EditFileWatcherDialog" timestamp="1593994487943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.0.center" timestamp="1593992427296">
+    <state x="379" y="138" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1593994487943" />
+    <state width="1481" height="77" key="GridCell.Tab.0.bottom" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.0.left" timestamp="1593992427296">
+    <state width="1481" height="77" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.0.center" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.0.right" timestamp="1593992427296">
+    <state width="1481" height="77" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.0.left" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.1.bottom" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.0.right" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.1.center" timestamp="1593992427296">
+    <state width="1481" height="77" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.1.bottom" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.1.left" timestamp="1593992427296">
+    <state width="1481" height="77" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.1.center" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593992427296" />
-    <state width="1481" height="207" key="GridCell.Tab.1.right" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.1.left" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.2.bottom" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.1.right" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.2.center" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.2.bottom" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.2.left" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state width="1481" height="77" key="GridCell.Tab.2.center" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.2.right" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state width="1481" height="77" key="GridCell.Tab.2.left" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.3.bottom" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state width="1481" height="77" key="GridCell.Tab.2.right" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.3.center" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state width="1481" height="77" key="GridCell.Tab.3.bottom" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.3.left" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state width="1481" height="77" key="GridCell.Tab.3.center" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state width="1481" height="207" key="GridCell.Tab.3.right" timestamp="1593992427297">
+    <state width="1481" height="77" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.3.left" timestamp="1593998463513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="207" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1593992427297" />
-    <state x="360" y="51" width="826" height="664" key="find.popup" timestamp="1593990795320">
+    <state width="1481" height="77" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1593998463513" />
+    <state width="1481" height="77" key="GridCell.Tab.3.right" timestamp="1593998463514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="51" width="826" height="664" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593990795320" />
+    <state width="1481" height="77" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1593998463514" />
+    <state x="360" y="51" width="826" height="664" key="find.popup" timestamp="1593993935535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="51" width="826" height="664" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593993935535" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1593971472237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,6 +8,11 @@ import router from './router';
 import store from '@/store/index';
 import './registerServiceWorker';
 import dateFilter from '@/filters/date.filter';
+
+import '@/styles/dx-data-grid.scss';
+
+// https://devexpress.github.io/ThemeBuilder
+// https://js.devexpress.com/Documentation/Guide/Themes_and_Styles/Predefined_Themes/
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.material.blue.light.css';
 

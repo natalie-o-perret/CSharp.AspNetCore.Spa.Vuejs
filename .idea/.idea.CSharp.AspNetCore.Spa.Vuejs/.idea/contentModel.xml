@@ -190,9 +190,12 @@
             <e p="index.ts" t="Include" />
             <e p="types.ts" t="Include" />
           </e>
+          <e p="styles" t="Include">
+            <e p="dx-data-grid.scss" t="Include" />
+          </e>
           <e p="views" t="Include">
             <e p="Counter.vue" t="Include" />
-            <e p="data.js" t="Include" />
+            <e p="data.ts" t="Include" />
             <e p="FetchData-decorator.vue" t="Include" />
             <e p="FetchData.vue" t="Include" />
             <e p="Home.vue" t="Include" />

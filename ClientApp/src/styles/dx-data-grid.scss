@@ -1,0 +1,42 @@
+// Consistent dx-data-grid styling
+$border-color: gainsboro;
+$even-row-bg-color: #FEFEFE;
+$mouse-hover-row-bg-color: #F0F0F0;
+
+.dx-datagrid-header-panel {
+	border: 1px solid $border-color;
+}
+
+[role="columnheader"]:hover {
+	transition: all 0.2s ease;
+}
+
+.dx-page {
+	transition: all 0.2s ease;
+}
+
+.dx-page-size {
+	transition: all 0.2s ease;
+}
+
+.dx-row {
+	height: 45px;
+}
+
+.dx-datagrid-toolbar-button {
+	transition: all 0.2s ease;
+}
+
+.dx-datagrid-pager {
+	border: 1px solid $border-color;
+}
+
+.dx-datagrid-rowsview .dx-row > td, .dx-datagrid-rowsview .dx-row > tr > td {
+	background-color: $even-row-bg-color;
+	line-height: 30px;
+}
+
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row) > td:not(.dx-focused) {
+	background-color: $mouse-hover-row-bg-color;
+	transition: all 0.2s ease;
+}
