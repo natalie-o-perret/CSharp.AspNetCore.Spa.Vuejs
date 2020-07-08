@@ -28,7 +28,7 @@ namespace CSharp.AspNetCore.Spa.Vuejs
             services.AddRouting();
             services.AddApiExplorerAndVersioning();
             services.ConfigureAndAddSwaggerGen();
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.SetupFSharp());
 
             // Add AddRazorPages if the app uses Razor Pages.
             services.AddRazorPages();

@@ -1,4 +1,6 @@
-﻿namespace CSharp.AspNetCore.Spa.Vuejs.SqliteData
+﻿using Microsoft.FSharp.Core;
+
+namespace CSharp.AspNetCore.Spa.Vuejs.SqliteData
 {
     public class SqliteRecord
     {
@@ -7,5 +9,6 @@
         public double Real { get; set; }
         public string? NullableText { get; set; }
         public string? NonNullableText { get; set; }
+        public FSharpOption<string>? FSharpOptionText { get; set; }
     }
 }

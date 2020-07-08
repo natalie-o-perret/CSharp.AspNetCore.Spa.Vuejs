@@ -42,19 +42,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0f97b1f-bd3e-4d27-ac9b-ab6d09a1e4b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StartupExtensions/JsonSerializerOptionsExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.AspNetCore.Spa.Vuejs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharp.AspNetCore.Spa.Vuejs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp.AspNetCore.Spa.Vuejs.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/SqliteDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SqliteDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/WeatherForecast.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteData/SqliteRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SqliteData/SqliteRecord.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartupExtensions/SqliteEfExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StartupExtensions/SqliteEfExtensions.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,48 +70,52 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B1EBDF69-C10B-4E80-9C57-DBA07AE09F3E/70/IModelBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/CSharp.AspNetCore.Spa.Vuejs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tslint.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/398A148B-B64F-44B2-9209-84B590551B78/A/SqliteDbContextOptionsBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/1DF/IMigrationCommandExecutor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/1FE/IRelationalDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/103/MigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/src/views/data.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsBinder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/398A148B-B64F-44B2-9209-84B590551B78/1B/SqliteMigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/53/RelationalDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/StartupExtensions/VersioningExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/1E4/IMigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AAADB0C5-9446-425D-830F-972C83E1536D/2/SwaggerGenServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DevExtreme/FieldError.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsBaseFieldNames.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StartupExtensions/SwaggerExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SqliteData/SqliteRecord.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/CSharp.AspNetCore.Spa.Vuejs.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/9/RelationalDatabaseFacadeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/StartupExtensions/SqliteEfExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7B19537B-F065-4C3F-9F78-85C4099CD3AA/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/tslint.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/398A148B-B64F-44B2-9209-84B590551B78/42/SqliteOptionsExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/408F3BEC-D652-40F9-AC6A-071D06D06520/19E/DatabaseFacade.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/408F3BEC-D652-40F9-AC6A-071D06D06520/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5A1C9D25-7A36-4F04-8F09-2E805AC08F14/20/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClientApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/tslint.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/SqliteDataController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StartupExtensions/SqliteEfExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/1FE/IRelationalDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StartupExtensions/VersioningExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SqliteData/SqliteRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/tslint.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/103/MigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevExtreme/FieldError.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/398A148B-B64F-44B2-9209-84B590551B78/1B/SqliteMigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsBaseFieldNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/53/RelationalDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsBinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/1E4/IMigrationsSqlGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevExtreme/DataSourceLoadOptionsParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AAADB0C5-9446-425D-830F-972C83E1536D/2/SwaggerGenServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B481E3CF-1007-32AC-B48E-25C13B4FC866/1/prim-types.fs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/299581CE-936A-49DE-BC66-5A7700F41E8C/9/RelationalDatabaseFacadeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/408F3BEC-D652-40F9-AC6A-071D06D06520/99/ValueConverter`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7B19537B-F065-4C3F-9F78-85C4099CD3AA/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/398A148B-B64F-44B2-9209-84B590551B78/42/SqliteOptionsExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StartupExtensions/JsonSerializerOptionsExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/408F3BEC-D652-40F9-AC6A-071D06D06520/19E/DatabaseFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/408F3BEC-D652-40F9-AC6A-071D06D06520/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5A1C9D25-7A36-4F04-8F09-2E805AC08F14/20/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientApp/src/views/data.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/555449C0-A33D-4E5D-9CA0-44361301749F/1D/ExtensionsForFakerT.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,7 +123,6 @@
         <option value="$PROJECT_DIR$/Data/DataDbContext.cs" />
         <option value="$PROJECT_DIR$/SqliteData/SqliteDataDbContext.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/SqliteData/SqliteRecord.cs" />
         <option value="$PROJECT_DIR$/Startup/SwaggerExtensions.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/DevExtreme/df.cs" />
@@ -144,17 +144,20 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/data.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/App.vue" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/SqliteData/InitialMigration.cs" />
         <option value="$PROJECT_DIR$/SqliteData/InitialSqliteMigration.cs" />
         <option value="$PROJECT_DIR$/SqliteData/InitialSqliteRecordsMigration.cs" />
-        <option value="$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" />
         <option value="$PROJECT_DIR$/StartupExtensions/SqliteEfExtensions.cs" />
         <option value="$PROJECT_DIR$/ClientApp/src/router.ts" />
-        <option value="$PROJECT_DIR$/Controllers/SqliteDataController.cs" />
         <option value="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/FetchData.vue" />
         <option value="$PROJECT_DIR$/ClientApp/src/views/SqliteData.vue" />
+        <option value="$PROJECT_DIR$/StartupExtensions/sdf.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/SqliteData/SqliteRecord.cs" />
+        <option value="$PROJECT_DIR$/Controllers/SqliteDataController.cs" />
+        <option value="$PROJECT_DIR$/Models/WeatherForecast.cs" />
+        <option value="$PROJECT_DIR$/SqliteData/SqliteDbContext.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +181,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Michelle\Desktop\Work\CSharp.AspNetCore.Spa.Vuejs\ClientApp\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Michelle\Desktop\work\CSharp.AspNetCore.Spa.Vuejs\ClientApp\node_modules\typescript\lib" />
   </component>
   <component name="RunManager">
     <configuration name="CSharp.AspNetCore.Spa.Vuejs" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -210,6 +213,7 @@
       <workItem from="1593923510423" duration="28318000" />
       <workItem from="1593997462399" duration="7179000" />
       <workItem from="1594055504052" duration="7924000" />
+      <workItem from="1594223924483" duration="6027000" />
     </task>
     <servers />
   </component>
@@ -250,74 +254,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="379" y="138" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1593994487943" />
-    <state width="1481" height="84" key="GridCell.Tab.0.bottom" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.0.bottom" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.0.center" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.0.center" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.0.left" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594229660563" />
+    <state width="1481" height="127" key="GridCell.Tab.0.left" timestamp="1594229660563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.0.right" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594229660563" />
+    <state width="1481" height="127" key="GridCell.Tab.0.right" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.1.bottom" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.1.bottom" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.1.center" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.1.center" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.1.left" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.1.left" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.1.right" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.1.right" timestamp="1594229660564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.2.bottom" timestamp="1594062522104">
+    <state width="1481" height="127" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594229660564" />
+    <state width="1481" height="127" key="GridCell.Tab.2.bottom" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594062522104" />
-    <state width="1481" height="84" key="GridCell.Tab.2.center" timestamp="1594062522104">
+    <state width="1481" height="127" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.2.center" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1594062522104" />
-    <state width="1481" height="84" key="GridCell.Tab.2.left" timestamp="1594062522104">
+    <state width="1481" height="127" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.2.left" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1594062522104" />
-    <state width="1481" height="84" key="GridCell.Tab.2.right" timestamp="1594062522104">
+    <state width="1481" height="127" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.2.right" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594062522104" />
-    <state width="1481" height="84" key="GridCell.Tab.3.bottom" timestamp="1594062522104">
+    <state width="1481" height="127" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.3.bottom" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594062522104" />
-    <state width="1481" height="84" key="GridCell.Tab.3.center" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.3.center" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.3.left" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.3.left" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="1481" height="84" key="GridCell.Tab.3.right" timestamp="1594062522103">
+    <state width="1481" height="127" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="1481" height="127" key="GridCell.Tab.3.right" timestamp="1594229660565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="84" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1594062522103" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1594059506483">
+    <state width="1481" height="127" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1594229660565" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1594227391593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1594059506483" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1594227391593" />
     <state x="360" y="48" width="826" height="776" key="find.popup" timestamp="1594061771879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

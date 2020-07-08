@@ -252,6 +252,7 @@
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="StartupExtensions" t="Include">
+        <e p="JsonSerializerOptionsExtensions.cs" t="Include" />
         <e p="SqliteEfExtensions.cs" t="Include" />
         <e p="SwaggerExtensions.cs" t="Include" />
         <e p="VersioningExtensions.cs" t="Include" />

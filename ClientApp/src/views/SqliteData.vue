@@ -42,6 +42,7 @@
             <dx-column data-field="real"            caption="Real" />
             <dx-column data-field="nullableText"    caption="Nullable Text" />
             <dx-column data-field="nonNullableText" caption="Non-nullable Text"/>
+            <dx-column data-field="fSharpOptionText" caption="F# Option Text"/>
           </dx-data-grid>
         </v-col>
       </v-row>
